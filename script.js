@@ -1,3 +1,8 @@
+function toggleDropdown() {
+    const dropdownContent = document.getElementById('dropdown-content');
+    dropdownContent.classList.toggle('show');
+}
+
 const navSlide = () => {
     const burger = document.querySelector('.hamburger');
     const nav = document.querySelector('.nav-links');

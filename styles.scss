@@ -103,10 +103,14 @@ nav {
         gap: 15px;
         padding-left: 5px;
         padding-top: 20px;
+
+        &.show {
+            display: flex;
+        }
     }
-    .dropdown:hover .dropdown-content {
-        display: flex;
-    }
+    // .dropdown:hover .dropdown-content {
+    //     display: flex;
+    // }
 
     .nav-links a:hover {
         color: $color-green;
